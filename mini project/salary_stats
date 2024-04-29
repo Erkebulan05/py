@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+
+        <h1>Yearly Salary Statistics</h1>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>year</th>
+      <th>average_salary</th>
+      <th>max_salary</th>
+      <th>min_salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020</td>
+      <td>97747.635833</td>
+      <td>450000.0</td>
+      <td>5922.0</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>100350.450129</td>
+      <td>600000.0</td>
+      <td>2900.0</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>125560.603774</td>
+      <td>405000.0</td>
+      <td>10000.0</td>
+    </tr>
+  </tbody>
+</table>
+        <h1>Monthly Salary Statistics</h1>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>month</th>
+      <th>average_salary_usd</th>
+      <th>max_salary_usd</th>
+      <th>min_salary_usd</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>9437.417553</td>
+      <td>50000.0</td>
+      <td>241.666667</td>
+    </tr>
+  </tbody>
+</table>
+        <h1>Employee Counts per Profession</h1>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>job_title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Data Scientist</th>
+      <td>143</td>
+    </tr>
+    <tr>
+      <th>Data Engineer</th>
+      <td>132</td>
+    </tr>
+    <tr>
+      <th>Data Analyst</th>
+      <td>97</td>
+    </tr>
+    <tr>
+      <th>Machine Learning Engineer</th>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>Research Scientist</th>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>Data Science Manager</th>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>Data Architect</th>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>Big Data Engineer</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>Machine Learning Scientist</th>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>Principal Data Scientist</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>AI Scientist</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Data Science Consultant</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Director of Data Science</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Data Analytics Manager</th>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>ML Engineer</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Computer Vision Engineer</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>BI Data Analyst</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Lead Data Engineer</th>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Data Engineering Manager</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Business Data Analyst</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Head of Data</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Applied Data Scientist</th>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Applied Machine Learning Scientist</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Head of Data Science</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Analytics Engineer</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Data Analytics Engineer</th>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Machine Learning Developer</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Machine Learning Infrastructure Engineer</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Lead Data Scientist</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Computer Vision Software Engineer</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Lead Data Analyst</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Data Science Engineer</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Principal Data Engineer</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Principal Data Analyst</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>ETL Developer</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Product Data Analyst</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Director of Data Engineering</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Financial Data Analyst</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Cloud Data Engineer</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>Lead Machine Learning Engineer</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>NLP Engineer</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Head of Machine Learning</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3D Computer Vision Researcher</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Data Specialist</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Staff Data Scientist</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Big Data Architect</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Finance Data Analyst</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Marketing Data Analyst</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Machine Learning Manager</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Data Analytics Lead</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+        <h1>Highest Paid Profession</h1>
+        <p>The profession '<b>Principal Data Engineer</b>' receives the highest average salary of <b>$600000.00</b> USD per year.</p>
+
+        <h1>Min Paid Profession</h1>
+        <p>The profession '<b>Data Scientist</b>' receives the minimum average salary of <b>$2900.00</b> USD per year.</p>
+
+        <h1>Experience Level Distribution</h1>
+        <ul>
+            <li>Senior-level / Expert: 280</li>
+            <li>Mid-level / Intermediate: 213</li>
+             <li>Entry-level / Junior: 88</li>
+            <li>Executive-level / Director: 26</li>
+        </ul>
+
+        <h1>Employment Type Distribution</h1>
+        <ul>
+            <li>Part-time: 10</li>
+            <li>Full-time: 588</li>
+            <li>Contract: 5</li>
+            <li>Freelance: 4</li>
+        </ul>
+
+        <h1>Company Location Distribution</h1>
+        <ul>
+        <li>US: 355</li><li>GB: 47</li><li>CA: 30</li><li>DE: 28</li><li>IN: 24</li><li>FR: 15</li><li>ES: 14</li><li>GR: 11</li><li>JP: 6</li><li>NL: 4</li><li>AT: 4</li><li>PT: 4</li><li>PL: 4</li><li>LU: 3</li><li>PK: 3</li><li>BR: 3</li><li>AE: 3</li><li>MX: 3</li><li>AU: 3</li><li>TR: 3</li><li>DK: 3</li><li>IT: 2</li><li>CZ: 2</li><li>SI: 2</li><li>RU: 2</li><li>CH: 2</li><li>NG: 2</li><li>CN: 2</li><li>BE: 2</li><li>VN: 1</li><li>EE: 1</li><li>AS: 1</li><li>DZ: 1</li><li>MY: 1</li><li>MD: 1</li><li>KE: 1</li><li>SG: 1</li><li>CO: 1</li><li>IR: 1</li><li>CL: 1</li><li>MT: 1</li><li>IL: 1</li><li>UA: 1</li><li>IQ: 1</li><li>RO: 1</li><li>HR: 1</li><li>NZ: 1</li><li>HU: 1</li><li>HN: 1</li><li>IE: 1</li>
+        </ul>
+        <h1>Company Size Distribution</h1>
+        <ul>
+        <li>M: 326</li><li>L: 198</li><li>S: 83</li>
+        </ul>
+        <h1>Remote Work Ratio Distribution</h1>
+        <ul>
+        <li>100: 381</li><li>0: 127</li><li>50: 99</li>
+        </ul>
+
+        </body>
+        </html>
